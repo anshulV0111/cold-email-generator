@@ -1,0 +1,43 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# 🧪 Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# 🪄 Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🧰 VSCode / Editors
+.vscode/
+.idea/
+
+# 🖥️ OS generated files
+.DS_Store
+Thumbs.db
+
+# 📦 Cache & Logs
+*.log
+*.sqlite3
+*.db
+.cache/
+*.pkl
+*.bak
+
+# 🤫 Environment & secrets
+.env
+.env.*
+
+# 🧠 Vector / Embedding stores (if auto-generated)
+vectorstore/
+
+# 📝 CSV or data files (optional — if generated, not hand-written)
+# Uncomment if you don’t want to push data files
+# my_portfolio.csv
